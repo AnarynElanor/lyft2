@@ -1,0 +1,108 @@
+/* SECTION */
+#seccion1 {         /* CLEAR: especifica si un elemento puede estar al lado de elementos flotantes que lo preceden o si debe ser movido (cleared) debajo de ellos */
+    clear: both;  /* BOTH: Es un keyword que indica que el elemento es movido hacia abajo para limpiar tanto elementos flotantes de la izquierda como de la derecha*/
+    margin-top: 0px;
+    position: relative;
+}
+#formulario {    /* Estilo al recuadro de la derecha */
+    width: 40%;
+    height: 100%;
+    background-color: #fff;
+    float:right;
+    font-family: "Montserrat";
+    color: #36218c;
+    padding-left: 50px;
+    padding-top: 70px;
+    padding-bottom: 80px;
+    margin-top: 100px;
+}
+#formulario .tituloForm {
+    font-size: 45px;
+    font-weight: 800;
+}
+#formulario .formularioText {
+    margin-top: 40px;
+    font-size: 90%;
+}
+.numTel {    /* Estilo al formulario donde se solicita ingresar un número de teléfono */
+    margin-top: 10px;
+    width: 90%;
+}
+.numTel .inputs {
+    width: 90%;
+    height: 40px;
+}
+.numTel {
+    display: inline-block;
+}
+.botonDriver {                   /* Estilo al botón de BECOME A DRIVER */
+    margin-top: 15px;
+    background-color: #ff00bf;
+    border: none;
+    border-radius: 7px;
+    height: 40px;
+    width: 200px;
+    color: #fff;      /* Color de letra */
+    font-size: 90%;
+}
+.botonSign {         /* Estilo al botón de SING UP TO RIDE */
+    margin-top: 10px;
+    background-color: #fff;
+    border: none;
+    border-radius: 7px;
+    height: 40px;
+    width: 200px;
+    color: #6e6f80;
+    text-decoration: underline;
+    font-size: 90%;
+}
+.infoAdicional {           /* Estilo a la información bajo los botones */
+    margin-top: 30px;
+    color: #6e6f80;
+    font-size: 70%;
+}
+.infoAdicional .linkInfo:hover {     /* Especifico el tipo de cursor que se mostrará cuando este se encuentre sobre un elemento */
+    color: #ff00bf;
+    text-decoration: none;
+    cursor: pointer;
+}
+/* TELÉFONO */
+#sectionTelefono {
+    clear: both;
+    background: linear-gradient(#301F69, #691B84) fixed;   /*  linear-gradient: crea una <image> la cual representa un degradado lineal de colores */
+    padding: 20px;
+}
+#contenidoSectionTelefono {   /* Estilo a la segunda caja contenedora */
+    margin: auto;
+    width: 900px;
+    height: 100%;
+}
+    #textoSectionTelefono {   /* Estilo al texto de la segunda caja contenedora */
+        color: #fff;
+        display: inline-block;
+        margin-top: 10%;
+        margin-left: 6%;
+        margin-right: 6%;
+        margin-bottom: 10%;
+        width: 40%;
+    }
+        .tituloBloqueText {
+            font-weight: 600;
+            margin-bottom: 10px;
+        }
+        .contBloqueText {
+            font-weight: 300;
+            margin-bottom: 50px;
+        }
+#imgCelular {       /* Estilo a la imagen de phone.png*/
+    width: 35%;
+    display: inline-block;
+    position: absolute;
+    margin-top: 60px;
+    margin-bottom: 10px;
+}
+    #imgCelular > img{
+        width: 100%;
+        margin-bottom: 0px;
+        margin-top: 0px;
+    }

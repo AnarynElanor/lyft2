@@ -1,0 +1,74 @@
+/*  PIE DE PÁGINA */
+footer {
+    clear: both;
+    background: #34334a;   /* color de fondo del pie de página */
+    height: 550px;
+    width: 100%;
+    position: relative;
+    padding-top: 50px;
+    color: white;
+}
+    #divContenedorVerticales {     /* Divs verticales del footer */
+        overflow: hidden;      /* overflow  especifica si recortar contenido, dibujar barras de desplazamiento o mostrar el contenido excedente en un elemento a nivel de bloque. Hidde: el contenido es recortado y no se muestran barras de posición. */
+        width: 90%;
+        margin: auto;
+        }
+        .divsVerticales {   /* Ubicacion de los divs Verticales */
+            float: left;
+            width: 20%;
+        }
+            .titulosLink,
+            .titulosVerticales {
+                font-weight: 600;
+            }
+            .titulosVerticales {  /* Establezco color a los títulos de LOG IN, PARTNER Y LEARN */
+                color: #b0b4e8;
+                line-height: 40px;
+            }
+            .divsVerticales ul li {  /* Estilo a las listas ordenadas. Van debajo de los títulos verticales */
+                list-style: none;
+                line-height: 40px;
+            }
+                .divsVerticales ul li:hover, #divHorizontal .link:hover {      /* Especifico el tipo de cursor que se mostrará cuando este se encuentre sobre un elemento */
+                    color: #FF1493;
+                    text-decoration: underline;
+                    cursor: pointer;
+                }
+        #divImagenes {    /* Estilo a las imágenes a la derecha de las listas ordenadas (Apple, Google y Microsoft)*/
+            float: right;
+            width: 12%;
+            margin-top: 15px;
+        }
+            #divImagenes img {
+                box-sizing: border-box;
+                display: block;
+                width: 100%;
+                height: 50px;
+                margin-bottom: 15px;
+            }
+    #divHorizontal {             /* Parte horizontal final del footer */
+        position: absolute;
+        bottom: 10px;
+        left: 20%;
+        width: 60%;
+        text-align: center
+    }
+        #divHorizontal img {     /* Estilo a los logos de las redes sociales */
+            height: 40px;
+            width: 40px;
+            margin: 20px;
+            position: relative;
+        }
+            #divHorizontal img:hover, #divImagenes img:hover {     /* Especifico el tipo de cursor que se mostrará cuando este se encuentre sobre un elemento */
+                cursor: pointer;
+            }
+        #raya {                 /* Estilo a la línea horizontal que divide los logos del texto final */
+            width: 100%;
+            text-align: center;
+            margin-bottom: 15px;
+        }
+        #divHorizontal p {
+            display: inline-block;
+            margin-bottom: 30px;
+            letter-spacing: 1px;
+        }

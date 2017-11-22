@@ -1,0 +1,44 @@
+/*  VIDEOS  */
+.divisionesTextoVideo {
+    display: block;
+}
+    .video {
+        width: 65%;
+    }
+        .video iframe {
+            width: 100%;
+            min-width: 400px;   /* Establece la anchura mínima de los elementos de bloque */
+        }
+.textoLadoVideo {
+    box-sizing: border-box;
+    display: inline-block;
+    width: 30%;
+    min-width: 100px;
+    margin-top: 10%;
+    font-weight: 300;
+}
+    .textoLadoVideo h6 {    /* Estilos para la informacion de los videos */
+        font-size: 14px;
+        letter-spacing: 2px;
+        margin-bottom: 10px;
+    }
+    .textoLadoVideo h3 {
+        font-size: 28px;
+        font-weight: 700;
+        letter-spacing: 3px;
+        margin-bottom: 20px;
+    }
+.floatDer {
+    float: right;
+}
+.floatIzq {
+    clear: both;
+    float: left;
+}
+#textoLadoVideo2 {       /* Texto a los lados del video */
+    margin-right: 5%;
+}
+#textoLadoVideo1,
+#textoLadoVideo3 {
+    margin-left: 5%;
+}

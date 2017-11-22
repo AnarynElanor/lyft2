@@ -1,0 +1,73 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+body {
+    background-image: url(../assets/images/hero.gif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 300px;
+    font-family: "Montserrat";
+    margin-top: 93px;
+}
+html, body {
+    height: 100%;
+}
+/* CABECERA */
+header {
+    position: fixed;
+    width: 100%;
+    height: 100px;
+    top: 0;
+    font-family: "Montserrat";
+    color: white;
+    z-index: 7;   /* La propiedad z-index especifica el orden de la pila de un elemento. Un elemento con mayor orden de apilamiento siempre está delante de un elemento con un orden de apilamiento inferior.*/
+}
+    header > img {    /* Estilo a la imagen de logo-white.png */
+        width: 65px;
+        float: left;
+        margin-left: 100px;
+        margin-top: 30px;
+    }
+        header > img:hover {
+            cursor: pointer;  /* Especifico el tipo de cursor que se mostrará cuando este se encuentre sobre un elemento */
+        }
+    header > nav {
+        float: right;
+        margin-right: 3%;
+    }
+        header > nav > ul > li {  /* Estilo a la lista ordenada de mi barra de navegación */
+            display: inline-block;
+            list-style: none;
+            width: 90px;
+            font-size: 18px;
+            margin-left: 5px;
+            line-height: 100px;
+        }
+        header > nav > ul > li:hover{   /* Especifico el tipo de cursor que se mostrará cuando este se encuentre sobre un elemento */
+            color: #FF1493;
+            cursor: pointer;
+        }
+            header > nav > ul > li > button {  /* Estilo al boton de LOG IN de mi barra de navegacion */
+                width: 100%;
+                padding: 10px 0;
+                border: 1px solid white;
+                border-radius: 9px;
+                background-color: rgba(255, 255, 255, 0);  /* Aplico color alfa al botón de lOG IN */
+                color: white;
+                font-family: "Montserrat";
+                font-size: 18px;
+            }
+                #botonLogInNav:hover {      /* Especifico el tipo de cursor que se mostrará cuando este se encuentre sobre un elemento */
+                    background-color: rgba(255, 255, 255, 0.35); /* Aplico opacidad (color alfa al botón de lOG IN) */
+                    cursor: pointer;
+                }
+            #botonSingUpNav {      /* Estilo al boton de SING UP de mi barra de navegacion */
+                border-color:#ff00bf #FF1493;
+                color: #ff00bf;
+                display: none;
+            }
+                #botonSingUpNav:hover {    /* Especifico el tipo de cursor que se mostrará cuando este se encuentre sobre un elemento */
+                    cursor: pointer;
+                }
+Añadir comentario
